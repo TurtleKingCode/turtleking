@@ -45,4 +45,4 @@ I don't know how to add a library to GitHub
 <br>
 So I'll send you a link to it's site.
 <br>
-mathjs.org
+<a href="mathjs.org">Mathjs.org</a>
