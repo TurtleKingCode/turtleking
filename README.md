@@ -21,7 +21,7 @@ The code I'm attaching is HTML, JS, and CSS
 <br>
 It was a Claculator I made during the Summer
 <br>
-I feel like it's the largest project I have ever embarked in.  And I have a lot of pride in it.  Again, it was made by a noob so don't highly of it.
+I feel like it's the largest project I have ever embarked in.  And I have a lot of pride in it.  Again, it was made by a noob so don't think highly of it.
 <br>
 Even if it looks "okay" keep in mind that it was made by a noob and that noobs can only make noob quality work.  That is as far as my expertiese goes.
 <br>
