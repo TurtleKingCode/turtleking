@@ -43,6 +43,8 @@ In short, it set everything up while Math.js did the calculating.
 <br>
 I don't know how to add a library to GitHub
 <br>
-So I'll send you a link to it's site.
+So I'll send you the url to it's site.
 <br>
-<a href="mathjs.org">Mathjs.org</a>
+<br>
+
+<a href="https://mathjs.org/">Math.js</a>
