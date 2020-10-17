@@ -26,7 +26,7 @@ I feel like it's the largest project I have ever embarked in.  And I have a lot 
 Even if it looks "okay" keep in mind that it was made by a noob and that noobs can only make noob quality work.  That is as far as my expertiese goes.
 <br>
 <br>
-* ***Note***
+***Note***
 <br>
 Just so you know, "noob" refers to newbe.  It means "a person who is inexperienced in a particular sphere or activity."
 <br>
