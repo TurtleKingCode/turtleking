@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Mono&display=swap");
+
+/* CSS my boys!!! */
+
+:root {
+  --ImperialR: #E63946; /*Imperial Red*/
+  --Honeydew: #F1FAEE; /*Honeydew*/
+  --PowerB: #A8DADC; /*Power Blue*/
+  --PrussianB: #1D3557; /*Prussian Blue*/
+  --CeledonB: #457B9D; /* Celedon Blue*/
+  --Gray: #d7dadb; /* Gray*/
+}
+
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: "Fira Mono", monospace, sans-serif;
+  outline: none;
+}
+html {
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  background-image: linear-gradient(90deg, var(--Gray) 50%, var(--PrussianB) 50%);
+}
+body {
+  height: 120vh;
+  width: 100vw;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+#calculator {
+  background-image: linear-gradient(90deg, var(--PrussianB) 50%, var(--Gray) 50%);
+  padding: 30px 35px;
+  width: 400px;
+  border: none;
+  border-radius: 15px;
+}
+
+#display {
+  width: 100%;
+  height: 90px;
+  background: var(--Honeydew);
+  border: 2px solid var(--PrussianB);
+  border-radius: 30px;
+ }
+
+#keys {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 20px;
+  background: none;
+ }
+
+ input#expression {
+  width: 100%;
+  height: 40%;
+  padding: 10px;
+  text-align: left;
+  font-size: 25px;
+  border: none;
+  border-radius: 30px 30px 0px 0px;
+  color: var(--PrussianB);
+  background: inherit;
+  font-style:italic
+ }
+
+input#result {
+  width: 100%;
+  height: 60%;
+  padding: 10px;
+  text-align: right;
+  border: none;
+  border-radius: 0px 0px 30px 30px;
+  font-size: 35px;
+  color: var(--CeledonB);
+  background: inherit;
+ }
+
+input#expression::placeholder {
+  color: var(--PrussianB);
+  opacity: 0.7;
+  font-style: italic;
+}
+input#result::placeholder {
+  color: var(--CeledonB);
+  opacity: 0.7;
+}
+
+button {
+  display: grid;
+  place-items: center;
+  min-width: flex;
+  height: 80px;
+  border: 2px solid var(--PrussianB);
+  cursor: pointer;
+  background: #e9e9e9;
+  font-weight: bold;
+  font-size: 35px;
+  /* border-radius: 15px; */
+  color: var(--PrussianB)
+ }
+
+button {
+  border-radius: 60px;
+}
+#clear, #equals {
+  grid-column: span 2;
+}
+
+.operator, #equals {
+  background: var(--ImperialR);
+}
+.number {
+  background: var(--CeledonB);
+}
+
+#clear, #back {
+  background: var(--PowerB);
+}
+
+/* [id="division"] {
+  border-radius: 0 30px 0 0;
+} */
+
+/* [value="0"] {
+  border-radius: 0 0 0 30px;
+} */
+
+#equals, #back {
+  font-size: 45px;
+}
+
+button:hover {
+  color: var(--Honeydew);
+}
+
+button:active {
+  border-radius: 30px;
+}
