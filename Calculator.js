@@ -3,7 +3,7 @@ Input = {
   Expression: document.querySelector('input#expression'),
   Result: document.querySelector('input#result'),
 };
-
+ 
 Buttons = {
   // Calling the Buttons
   Clear: document.getElementById('clear'),
